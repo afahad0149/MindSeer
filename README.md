@@ -3,8 +3,8 @@
 Final Year Design Project of BSCSE at United International University.
 
 ### Team members
-|Name|ID|
-|____|__|
+| Name | ID |
+|:----:|:--:|
 | Ayesha Mahjabeen | ID: 011 161 116 |
 | Shadman Sakib Apurbo | ID: 011 161 126 |
 | Ashraful Alam Mridha | ID: 011 161 170 |
