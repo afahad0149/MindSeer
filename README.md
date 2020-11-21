@@ -11,7 +11,7 @@ Final Year Design Project of BSCSE at United International University.
 | Sharmi Ara | ID: 011 161 248 |
 | Akib Ahmed Fahad | ID: 011 162 083 |
 
-### Mentor
+### Supervisor
 Dr. Salekul Islam  
 Professor and Head of the Department of Computer Science and Engineering  
 United International University  
