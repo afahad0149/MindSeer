@@ -2,15 +2,6 @@
 
 Final Year Design Project of BSCSE at United International University.
 
-### Team members
-| Name | ID |
-|:----:|:--:|
-| Ayesha Mahjabeen | ID: 011 161 116 |
-| Shadman Sakib Apurbo | ID: 011 161 126 |
-| Ashraful Alam Mridha | ID: 011 161 170 |
-| Sharmi Ara | ID: 011 161 248 |
-| Akib Ahmed Fahad | ID: 011 162 083 |
-
 ### Supervisor
 Dr. Salekul Islam  
 Professor and Head of the Department of Computer Science and Engineering  
