@@ -1,0 +1,91 @@
+OUTPUT FORMATS
+
+The output formats, especially the group ones are quite complex but it
+would be a great help if you can follow this format because I'd not need
+to change my parsing functions for these files.
+
+For comments ->
+
+A list containing dictionaries in the following format ->
+
+{'user_id': ___ ,
+ 'comments':
+    [                   # This will be a list of dictionaries in the following format each containing a comment object ->
+
+        {'data':        # This will be a list containing just one element which is a
+                        # dictionary of the following format ->
+            [
+                {'comment':
+                    {'comment': _____ , 'timestamp': _____ 
+                    }
+                }
+            ]
+
+        }
+    ]
+
+}
+
+
+For posts ->
+
+A list containing dictionaries in the following format ->
+
+{'user_id: ___ ,
+ 'posts':
+    [                           # This will be a list of dictionaries in the following format each containing a comment object ->
+
+        {'timestamp': ____ ,
+
+         'data':
+            [                   # This will be a list containing just one element which is a
+                                # dictionary of the following format ->
+
+                {
+                    'post': ____
+                }
+            ]    
+         } 
+    ]
+      
+}
+
+
+For groups ->
+
+A list containing dictionaries in the following format ->
+
+{'user_id: ___ ,
+ 'group_posts': 
+    {'activity_log_data':       # This will be a list of dictionaries in either of the following formats
+                                # depending on whether they are comments or posts in groups ->
+        [
+            # For comment objects the format of the data object is ->
+
+            {'data':
+                [
+                    {'comment':
+                        {'comment': _____ ,
+                         'timestamp': _____
+                        }
+                    }
+                ]
+            } ,
+
+            # For post objects the format of the data object is ->
+            {'data':
+                [
+                    {
+                        'post': _____ ,
+                    } ,
+
+                    {
+                        'update_timestamp': _____
+                    }
+                ]
+            }
+
+        ]
+
+    }
+}
