@@ -45,8 +45,8 @@ for i in range(row):
         score+=2
       elif(data[i][j][0])=='M':
         score+=3
-  if(score<15):
-    
+
+  if(score < 24):
     Class.append(0)
   else:
     # data = np.insert(data, 25, 1, axis=1)
